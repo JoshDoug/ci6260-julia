@@ -17,4 +17,15 @@ plot(x,y)
 z = rand(10)
 plot!(x,z)
 
+## Mutation can also be done with an explicit plot variable
+
+x = 1:10; y = rand(10,2) # 2 columns means two lines
+p = plot(x,y)
+z = rand(10)
+plot!(p,x,z)
+
+#=
+Note that in the case where p is omitted, Plots.jl uses the global Plots.CURRENT_PLOT automatically in the same manner.
+=#
+
 ##
