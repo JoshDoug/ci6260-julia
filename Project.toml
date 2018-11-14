@@ -1,2 +1,5 @@
 [deps]
+Atom = "c52e3926-4ff0-5f6e-af25-54175e0327b1"
+GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
+Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
